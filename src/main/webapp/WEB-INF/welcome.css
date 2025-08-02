@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* welcome.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.welcome-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logout-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background-color: #388E3C;
+}
