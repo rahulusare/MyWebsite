@@ -6,7 +6,7 @@ response.setHeader("Expires", "0");
 String[] userInfo = (String[]) session.getAttribute("Info");
 
 if (userInfo == null) {
-	response.sendRedirect("login.jsp");
+	response.sendRedirect("index.jsp");
 	return;
 }
 %>

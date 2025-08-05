@@ -9,7 +9,7 @@
 <body>
  	 <h2>Access Denied</h2>
 	<p>You are not authorized to view this page.</p>
-	<a href="login.jsp">Go to Login</a>
+	<a href="index.jsp">Go to Login</a>
   
 </body>
 </html>
