@@ -20,7 +20,7 @@ public class MyDAO {
 	        return DriverManager.getConnection(DB_URL, DB_USER, DB_PASS);
 	    }
 
-	    public void addStudent(StudentPOJO s) throws Exception {
+/*	    public void addStudent(StudentPOJO s) throws Exception {
 	    	String query = "INSERT INTO student (name, age, email) VALUES (?, ?, ?)";
 	        Connection con = getConnection();
 	        PreparedStatement ps = con.prepareStatement(query);
@@ -43,7 +43,7 @@ public class MyDAO {
 			}
 			con.close();
 			return list;
-		}
+		}*/
 
 		public int registerNewUser( String name, String email, String password) throws Exception {
 			Connection con = getConnection();

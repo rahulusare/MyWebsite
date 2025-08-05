@@ -37,7 +37,7 @@ public class LoginServlet extends HttpServlet {
                
         MyDAO dao = new MyDAO();
         try {
-        	String[] s = (String[]) dao.verifyLogin(email, password, ipAddress);
+        	String[] s = dao.verifyLogin(email, password, ipAddress);
         	HttpSession session = request.getSession();
         	
             if (s ==null) {

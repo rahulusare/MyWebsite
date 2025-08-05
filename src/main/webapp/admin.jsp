@@ -12,6 +12,8 @@ if (s == null || !"admin".equals(s[1])) {
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Page</title>
 </head>
 <body>
@@ -23,6 +25,7 @@ if (s == null || !"admin".equals(s[1])) {
     <div class="button-group">
         <a href="logout.jsp" class="btn logout"> Logout</a><br>
         <a href="Videos.jsp" class= "Videos-btn">Videos</a>
+        <a href="welcome.jsp">Welcome Page</a>
     </div>
 </div>
 
