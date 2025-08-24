@@ -1,0 +1,20 @@
+#ludoBoard {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: repeat(5, 140px);
+    gap: 2px;
+    width: max-content;
+    margin: 20px auto;
+}
+.cell {
+    width: 150px;
+    height: 140px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeRed { background-color: #FF6666; }
+.homeBlue { background-color: #6666FF; }
+.homeGreen { background-color: #66FF66; }
+.homeYellow { background-color: #FFFF66; }
